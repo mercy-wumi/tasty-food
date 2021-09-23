@@ -1,0 +1,52 @@
+.good-food {
+    max-width: 1200px;
+    margin: 5rem auto;
+}
+.foods {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    justify-content: space-around;
+}
+.good-food > h2 {
+    font-size: 3.5em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+.food-image {
+    width: 32%;
+    margin-bottom: 10px;
+}
+.img {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .food-image {
+    width: 50%;
+    height: auto;
+    margin-bottom: 0px;
+    }
+    .img {
+        height: 100%;
+    }
+    .good-food > h2 {
+        font-size: 2.5em;
+        padding-bottom: .5em;
+        text-align: center;
+    }
+}
+@media (max-width: 425px) {
+    .good-food > h2 {
+        font-size: 2em;
+    }
+}
+@media (max-width: 375px) {
+    .good-food > h2 {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 320px) {
+    .good-food > h2 {
+        font-size: 1.2em;
+    }
+}

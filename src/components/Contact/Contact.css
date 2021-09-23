@@ -1,0 +1,45 @@
+.contact {
+    display: flex;
+    margin: 5em auto;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+.contact-card {
+    width: 30%;
+    padding: 1.5em 3em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 5rem;
+    text-align: center;
+}
+.contact-card > h4 p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.icons {
+    width: 40px;
+    padding-bottom: 20px;
+}
+@media (max-width: 768px) {
+    .contact {
+        margin: 5em auto 3em;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-card {
+        width: 60%;
+        padding: 2em 3em;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 425px) {
+    .contact-card {
+        width: 80%;
+    }
+}
+@media (max-width: 320px) {
+    .contact-card {
+        padding: 2em;
+        width: 90%;
+    }
+}

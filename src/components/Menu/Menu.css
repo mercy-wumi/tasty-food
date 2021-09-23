@@ -1,0 +1,40 @@
+.menu {
+    max-width: 1200px;
+    margin: 5rem auto;
+}
+.best-meals {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-heading {
+    text-align: center;
+}
+.menu-heading > h3{
+    color: var(--light-orange);
+    font-size: 2em;
+    font-weight: 400;
+}
+.menu-heading > h2 {
+    font-size: 3.5em;
+    padding-bottom: .2em;
+}
+.menu-heading > p {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    font-weight: 600;
+}
+@media (max-width: 768px) {
+    .best-meals {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 425px) {
+    .menu-heading > h2 {
+    font-size: 1.5em;
+}
+    .menu-heading > p {
+        font-size: 1em;
+        padding-bottom: 1em;
+        font-weight: 600;
+    }
+}
