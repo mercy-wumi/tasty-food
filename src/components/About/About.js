@@ -6,7 +6,7 @@ import { BsArrowRightShort } from 'react-icons/bs';
 
 const About = () => {
     return (
-        <div>
+        <div id="about">
             <div className="about">
                 <div className="about-img">
                     <span className="background-about"></span>

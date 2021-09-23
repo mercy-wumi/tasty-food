@@ -23,7 +23,7 @@ const Contact = () => {
         }
     ]
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             {contact.map((contactSec, index) => {
                 return (
                     <div className="contact-card" key={index}>

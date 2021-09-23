@@ -1,6 +1,5 @@
 import React from 'react';
 import "./FoodCard.css"
-import menuOne from "../../images/menu_photo1@2x.png";
 const FoodCard = ({ menu }) => {
     console.log(menu)
     return (
