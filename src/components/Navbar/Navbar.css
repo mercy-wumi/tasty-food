@@ -9,22 +9,17 @@
 .nav-container {
     display: flex;
     align-items: center;
-    /* width: 90%; */
     margin: auto;
     padding: 10px 0;
     height: 95px;
     justify-content: space-around;
 }
-/* .logo-name {
-    width: 50vw;
-} */
 .nav-logo {
     width: 150px;
     object-fit: contain;
     height: auto;
 }
 .navbar-menu {
-    /* width: 50vw; */
     display: flex;
     justify-content: flex-end;
     align-items: center;

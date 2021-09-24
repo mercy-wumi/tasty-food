@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     /* color */
 
@@ -8,14 +15,9 @@
     --white-color: #FFFFFF;
     --dark-gray: #383833;
 
-    /* font */
 
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 html, body {
     overflow-x: hidden;
     background-color: #FAFAFA;
