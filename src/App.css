@@ -18,4 +18,6 @@
 }
 html, body {
     overflow-x: hidden;
+    background-color: #FAFAFA;
+    font-family: 'Raleway', sans-serif;
 }

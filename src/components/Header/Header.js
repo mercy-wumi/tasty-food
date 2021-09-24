@@ -3,10 +3,12 @@ import "./Header.css"
 import food from "../../images/background+pict@2x.png";
 import foodImg from "../../images/background_picture2@2x.png";
 import { BsArrowRightShort } from 'react-icons/bs';
+// import MobileNav from '../MobileNav/MobileNav';
+
 
 const Header = () => {
     return (
-        <div>
+        <>
             <div className="header">
                 <div className="header-text">
                     <div className="text">
@@ -27,6 +29,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="mobile-header">
+                {/* <MobileNav /> */}
                 <span className="mobile-background"></span>
                 <div className="mobile-content">
                     <div className="text">
@@ -44,7 +47,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 export default Header;

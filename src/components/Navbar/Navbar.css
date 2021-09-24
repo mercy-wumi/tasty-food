@@ -4,15 +4,16 @@
     left: 0;
     z-index: 5;
     width: 100vw;
-    background-color: white;
+    background-color: var(--white-color);
 }
 .nav-container {
     display: flex;
     align-items: center;
-    width: 90%;
+    /* width: 90%; */
     margin: auto;
     padding: 10px 0;
-    justify-content: space-between;
+    height: 95px;
+    justify-content: space-around;
 }
 /* .logo-name {
     width: 50vw;
@@ -29,6 +30,7 @@
     align-items: center;
     list-style: none;
     font-size: 20px;
+    width: 70%;
     font-weight: bold;
 }
 .navbar-menu > li > a {
@@ -45,11 +47,41 @@
         display: none;
     }
     .openMenu {
+        position: absolute;
         display: block;
         cursor: pointer;
         font-size: 30px;
+        top: 30px;
+        right: 30px;
     }
     .nav-container {
-    padding: 20px 0;
-}
+        padding: 20px 0;
+        position: relative;
+    }
+    .mobile-nav {
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: white;
+        left: 0;
+        top: 94px;
+        width: 100%;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .links > a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        font-weight: 900;
+    }
+    .links {
+        padding: 20px 0px;
+    }
+    .logo-name {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
 }

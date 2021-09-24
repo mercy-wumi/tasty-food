@@ -17,9 +17,9 @@ const Footer = () => {
                     <li><a href="#about">Contact</a></li>
                 </ul>
                 <ul className="footer-icon footer-menu">
-                    <li><a href="#about"><FaFacebook /></a></li>
-                    <li><a href="#about"><FaTwitter /></a></li>
-                    <li><a href="#about"><FaInstagram /></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FaFacebook /></a></li>
+                    <li><a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><FaTwitter /></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><FaInstagram /></a></li>
                 </ul>
             </div>
         </div>

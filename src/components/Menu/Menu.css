@@ -16,7 +16,7 @@
 }
 .menu-heading > h2 {
     font-size: 3.5em;
-    padding-bottom: .2em;
+    padding: 0.3em 0;
 }
 .menu-heading > p {
     font-size: 1.5em;
@@ -27,13 +27,22 @@
     .best-meals {
         flex-wrap: wrap;
     }
+    .menu-heading > h2 {
+        font-size: 2em;
+    }
+    /* .menu {
+        margin: 0;
+    } */
 }
 @media (max-width: 425px) {
     .menu-heading > h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+.menu-heading > h3 {
+    font-size: 1em;
 }
     .menu-heading > p {
-        font-size: 1em;
+        font-size: .8em;
         padding-bottom: 1em;
         font-weight: 600;
     }

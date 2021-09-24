@@ -11,7 +11,7 @@
     z-index: 2;
     text-align: center;
     padding: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .logo-text {
     position: absolute;
@@ -90,6 +90,11 @@
 @media (max-width: 425px) {
     .background-footer {
         left: -650px;
+        top: 150px;
+    }
+    .footer-center {
+        position: relative;
+        top: 50px;
     }
     .logo-footer {
         width: 200px;

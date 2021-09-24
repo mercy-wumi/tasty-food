@@ -31,6 +31,12 @@
     .food-img {
         height: 250px;
     }
+    .name-price {
+        font-size: 1.2em;
+    }
+    .meal-desc > p {
+        font-size: 1em;
+    }
 }
 @media (max-width: 375px) {
     .food-img {

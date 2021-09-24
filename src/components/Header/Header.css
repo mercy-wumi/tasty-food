@@ -6,6 +6,8 @@
     align-items: center;
     /* height: calc(100vh - 60px); */
     background-color: var(--light-green);
+    background: linear-gradient(180deg, #B2C9A3, #FAFAFA);
+
 }
 .header-text {
     width: 50%;
@@ -157,7 +159,7 @@
         margin-top: 0em;
     }
     .text > h1 {
-        font-size: 3.5em;
+        font-size: 3.2em;
     }
     .text > p {
         font-size: 1.5em;
@@ -180,6 +182,14 @@
         z-index: 1;
         margin-left: -100px;
         /* margin-top: 0px; */
+    }
+}
+@media (max-width: 600px) {
+    .text > h1 {
+        font-size: 3em;
+    }
+    .text > p {
+        padding-right: 2em;
     }
 }
 @media (max-width: 425px) {
