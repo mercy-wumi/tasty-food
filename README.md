@@ -5,9 +5,9 @@ A landing page built using react showcasing their menus, customer's satisfaction
 
 https://tasty-food-landing-page.netlify.app/
 
-## Tasty Landing Page Screenshot
+## TastyFood Landing Page Screenshot
 
-![alt text](https://github.com/[mercy-wumi]/[tasty-food]/blob/[main]/Tastyfood.PNG?raw=true)
+![TastyFood Landing Page](./images/tastyfood.png)
 
 
 <!-- # Getting Started with Create React App
