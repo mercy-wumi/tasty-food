@@ -8,6 +8,8 @@ https://tasty-food-landing-page.netlify.app/
 ## TastyFood Landing Page Screenshot
 
 ![TastyFood Landing Page](src/images/TastyFood.PNG)
+![TastyFood Landing Page](src/images/mobileView.PNG)
+![TastyFood Landing Page](src/images/mobileNav.PNG)
 
 
 <!-- # Getting Started with Create React App
