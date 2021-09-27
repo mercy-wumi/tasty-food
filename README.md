@@ -7,8 +7,7 @@ https://tasty-food-landing-page.netlify.app/
 
 ## Tasty Landing Page Screenshot
 
-![TastyFood Screenshot](./images/TastyFood.PNG)
-Format: ![TastyFood Screenshot] (https://tasty-food-landing-page.netlify.app/)
+![alt text](https://github.com/[mercy-wumi]/[tasty-food]/blob/[main]/Tastyfood.PNG?raw=true)
 
 
 <!-- # Getting Started with Create React App
