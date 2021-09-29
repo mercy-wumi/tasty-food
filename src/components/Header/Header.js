@@ -31,7 +31,7 @@ const Header = () => {
                 <span className="mobile-background"></span>
                 <div className="mobile-content">
                     <div className="text">
-                        <h1>Healthy & Fresh Food For You</h1>
+                        <h1>Healthy &amp; Fresh Food For You</h1>
                         <p>
                             Created for lovers of healthy delicious and non-obvious food.
                         </p>

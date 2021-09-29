@@ -1,6 +1,12 @@
 .card {
     width: 32%;
+    margin-top: 1em;
+
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
 }
 .food-img {
     width: 100%;
@@ -21,7 +27,7 @@
 @media (max-width: 768px) {
     .card {
         width: 80%;
-        margin: 0em auto 3em;
+        margin: 1em auto 3em;
     }
     .food-img {
         height: 400px;

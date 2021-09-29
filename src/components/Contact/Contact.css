@@ -12,6 +12,9 @@
     border-radius: 5rem;
     text-align: center;
 }
+.contact-card:hover {
+    animation: moveContact 1s ease-out;
+}
 .contact-card > h4, p {
     font-size: 1em;
 }
@@ -22,6 +25,14 @@
     width: 40px;
     padding-bottom: 20px;
 }
+@keyframes moveContact {
+        0% {
+            transform: translatey(-20px);
+        }
+        100% {
+            transform: translatex(0);
+        }
+    }
 @media (max-width: 768px) {
     .contact {
         margin: 5em auto 0em;

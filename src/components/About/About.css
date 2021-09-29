@@ -44,6 +44,7 @@
 .about-text > p {
     font-size: 1.5em;
     padding-bottom: 1em;
+    animation: moveInText 1s ease-out;
 }
 .green-color {
     background-color: var(--dark-green);

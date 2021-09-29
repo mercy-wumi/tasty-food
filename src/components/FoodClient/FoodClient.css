@@ -11,6 +11,7 @@
     font-size: 3.5em;
     padding-bottom: .5em;
     text-align: center;
+    animation: moveLeftRight 1.5s ease-out;
 }
 .food-image {
     width: 32%;
@@ -18,7 +19,25 @@
 }
 .img {
     width: 100%;
+    transition: all 0.5s;
 }
+.img:hover {
+    transform: scale(1.05);
+}
+@keyframes moveLeftRight {
+        0% {
+            opacity: 0;
+            transform: translatex(50px);
+        }
+        80% {
+            transform: translatex(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translatex(0);
+        }
+    }
+
 @media (max-width: 768px) {
     .food-image {
     width: 50%;
@@ -28,6 +47,9 @@
     .img {
         height: 100%;
     }
+    .img:hover {
+    transform: scale(1);
+}
     .good-food > h2 {
         font-size: 2.5em;
         padding-bottom: .5em;
