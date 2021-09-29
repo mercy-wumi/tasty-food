@@ -73,6 +73,9 @@
         color: black;
         font-weight: 900;
     }
+    .links > a:hover{
+        color: var(--light-orange);
+    }
     .links {
         padding: 20px 0px;
     }

@@ -19,13 +19,13 @@
     font-size: 3.5em;
     padding-bottom: .3em;
     font-weight: 800;
-    animation: moveIn 1s ease-out;
+    /* animation: moveIn 1s ease-out; */
 }
 .text > p {
     font-size: 1.3em;
     padding-bottom: 1.5em;
     padding-right: 3em;
-    animation: moveInText 1s ease-out;
+    /* animation: moveInText 1s ease-out; */
 }
 .check-menu {
     display: flex;

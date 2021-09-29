@@ -11,7 +11,7 @@
     font-size: 3.5em;
     padding-bottom: .5em;
     text-align: center;
-    animation: moveLeftRight 1.5s ease-out;
+    /* animation: moveLeftRight 1.5s ease-out; */
 }
 .food-image {
     width: 32%;
