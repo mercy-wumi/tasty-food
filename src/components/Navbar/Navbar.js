@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import "./Navbar.css"
 import logo from "../../images/wrapped_green_logo@2x.png";
 import { FaBars } from 'react-icons/fa';
 import { MdClose } from 'react-icons/md';
 
 
-const Navbar = () => {
-    const [showNav, setShowNav] = useState(false);
+const Navbar = ({ showNav, setShowNav }) => {
+    // const [showNav, setShowNav] = useState(false);
 
     const handleClick = () => {
         setShowNav(!showNav);
