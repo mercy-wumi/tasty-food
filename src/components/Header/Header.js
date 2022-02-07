@@ -84,10 +84,19 @@ const Header = ({ setShowNav }) => {
                         <p>
                             Created for lovers of healthy delicious and non-obvious food.
                         </p>
-                        <button className="check-menu">
-                            Check Menu
-                            <BsArrowRightShort />
-                        </button>
+                        <a
+                            href="/menu"
+                            onClick={e => {
+                                let menu = document.getElementById("menu");
+                                e.preventDefault();  // Stop Page Reloading
+                                menu && menu.scrollIntoView({ behavior: "smooth", block: "start" });
+                            }}
+                        >
+                            <button className="check-menu">
+                                Check Menu
+                                <BsArrowRightShort />
+                            </button>
+                        </a>
                     </motion.div>
                     <img src={foodImg} alt="Nice Delicacy" className="foodImg" />
                 </div>
@@ -95,6 +104,7 @@ const Header = ({ setShowNav }) => {
                     <span className="background"></span>
                     <motion.img
                         initial={{ opacity: 0, x: 200 }}
+                        whileHover={{ scale: 0.95 }}
                         animate={{
                             opacity: 1,
                             x: 0,
@@ -117,14 +127,24 @@ const Header = ({ setShowNav }) => {
                         <p>
                             Created for lovers of healthy delicious and non-obvious food.
                         </p>
-                        <button className="check-menu">
-                            Check Menu
-                            <BsArrowRightShort />
-                        </button>
+                        <a
+                            href="/menu"
+                            onClick={e => {
+                                let menu = document.getElementById("menu");
+                                e.preventDefault();  // Stop Page Reloading
+                                menu && menu.scrollIntoView({ behavior: "smooth", block: "start" });
+                            }}
+                        >
+                            <button className="check-menu">
+                                Check Menu
+                                <BsArrowRightShort />
+                            </button>
+                        </a>
                     </div>
                     <div className="mobile-img">
                         <motion.img
                             ref={rootRef}
+                            whileHover={{ scale: 0.95 }}
                             initial={{ opacity: 0, x: 100 }}
                             animate={mobileControls}
                             src={foodMobile}

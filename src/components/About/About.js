@@ -86,10 +86,18 @@ const About = () => {
                         We are not ordinary food truck. We create a place overflowing
                         with positive energy that it expresses important to us values. <br /> Get to know them specifically.
                     </motion.p>
-                    <button className="check-menu green-color">
-                        Learn More
-                        <BsArrowRightShort />
-                    </button>
+                    <a
+                        href='/clients'
+                        onClick={e => {
+                            let clients = document.getElementById('clients')
+                            e.preventDefault();
+                            clients && clients.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                        }}>
+                        <button className="check-menu green-color">
+                            Learn More
+                            <BsArrowRightShort />
+                        </button>
+                    </a>
                 </div>
             </div>
             <div className="mobile-about">
@@ -100,10 +108,18 @@ const About = () => {
                         We are not ordinary food truck. We create a place overflowing
                         with positive energy that it expresses important to us values. <br /> Get to know them specifically.
                     </p>
-                    <button className="check-menu green-color">
-                        Learn More
-                        <BsArrowRightShort />
-                    </button>
+                    <a
+                        href='/clients'
+                        onClick={e => {
+                            let clients = document.getElementById('clients')
+                            e.preventDefault();
+                            clients && clients.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                        }}>
+                        <button className="check-menu green-color">
+                            Learn More
+                            <BsArrowRightShort />
+                        </button>
+                    </a>
                 </div>
                 <div className="about-img">
                     <img src={vegeMobile} alt="Nice Delicacy" className="image" />

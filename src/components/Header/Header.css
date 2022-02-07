@@ -27,6 +27,9 @@
     padding-right: 3em;
     /* animation: moveInText 1s ease-out; */
 }
+a {
+    text-decoration: none;
+}
 .check-menu {
     display: flex;
     justify-content: center;

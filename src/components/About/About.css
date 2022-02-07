@@ -46,6 +46,9 @@
     padding-bottom: 1em;
     /* animation: moveInText 1s ease-out; */
 }
+a{
+    text-decoration: none;
+}
 .green-color {
     background-color: var(--dark-green);
 }

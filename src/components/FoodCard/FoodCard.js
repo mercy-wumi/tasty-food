@@ -50,10 +50,11 @@ const FoodCard = ({ menu }) => {
             {menu.map((menus, index) => {
                 return (
                     <motion.div
+                        className="card"
+                        whileHover={{ scale: 1.05 }}
                         ref={rootRef}
                         initial={{ opacity: 0, x: -50 }}
                         animate={controls}
-                        className="card"
                         key={index}
                     >
                         <img srcSet={`${menus.imgMobile} 300w, ${menus.img} 768w`} src={menus.img} alt="menu one" className="food-img" />

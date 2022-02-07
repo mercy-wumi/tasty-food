@@ -16,14 +16,49 @@ const Navbar = ({ showNav, setShowNav }) => {
             <nav className="navbar">
                 <div className="nav-container">
                     <div className="logo-name">
-                        <img src={logo} alt="logo" className="nav-logo" />
+                        <a href="/">
+                            <img src={logo} alt="logo" className="nav-logo" />
+                        </a>
                     </div>
                     <ul className={showNav ? "mobile-nav" : "navbar-menu"}
                         onClick={() => setShowNav(false)}
                     >
-                        <li className="links"><a href="#about">About us</a></li>
-                        <li className="links"><a href="#menu">Menu</a></li>
-                        <li className="links"><a href="#contact">Contact</a></li>
+                        <li className="links">
+                            <a
+                                href="/about"
+                                onClick={e => {
+                                    let about = document.getElementById("about");
+                                    e.preventDefault();  // Stop Page Reloading
+                                    about && about.scrollIntoView({ behavior: "smooth", block: "start" });
+                                }}
+                            >
+                                About us
+                            </a>
+                        </li>
+                        <li className="links">
+                            <a
+                                href="/menu"
+                                onClick={e => {
+                                    let menu = document.getElementById("menu");
+                                    e.preventDefault();  // Stop Page Reloading
+                                    menu && menu.scrollIntoView({ behavior: "smooth", block: "start" });
+                                }}
+                            >
+                                Menu
+                            </a>
+                        </li>
+                        <li className="links">
+                            <a
+                                href="/contact"
+                                onClick={e => {
+                                    let contact = document.getElementById("contact");
+                                    e.preventDefault();  // Stop Page Reloading
+                                    contact && contact.scrollIntoView({ behavior: "smooth", block: "start" });
+                                }}
+                            >
+                                Contact
+                            </a>
+                        </li>
                     </ul>
                     <div className="openMenu" onClick={handleClick}>{showNav ? <MdClose /> : <FaBars />}</div>
                 </div>

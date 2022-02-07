@@ -10,7 +10,7 @@ import gallerySix from "../../images/galery_photo6@2x.png";
 const FoodClient = () => {
     const foodGallery = [galleryOne, galleryTwo, galleryThree, galleryFour, galleryFive, gallerySix];
     return (
-        <div className="good-food">
+        <div id='clients' className="good-food">
             <h2>Good food = happy clients</h2>
             <div className="foods">
                 {foodGallery.map((menuFood, index) => {
